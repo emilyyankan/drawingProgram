@@ -23,7 +23,7 @@ namespace DrawingProgram
         // Method to a Line shape with specific color between given start and end point
         public override void DrawColoredShape(Graphics g, Point startPoint, Point endPoint)
         {
-            using (Pen pen = new Pen(shapeColor))
+            using (Pen pen = new Pen(shapeColor, 2))
 
             {
                 g.DrawLine(pen, startPoint, endPoint);

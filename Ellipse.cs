@@ -20,7 +20,7 @@ namespace DrawingProgram
 
         public override void DrawColoredShape(Graphics g, Point startPoint, Point endPoint)
         {
-            using (Pen pen = new Pen(shapeColor))
+            using (Pen pen = new Pen(shapeColor, 2))
 
             {
                 int x = Math.Min(startPoint.X, endPoint.X);

@@ -13,6 +13,7 @@ namespace DrawingProgram
         private Point startPoint;
         private Point endPoint;
         private bool isDrawing = false;
+        
         private Bitmap bufferBitmap;
         private Graphics bufferGraphics;
         private Label rgbLabel; // Display RGB values
